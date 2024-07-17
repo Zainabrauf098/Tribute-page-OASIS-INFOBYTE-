@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #007b5e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-text p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.header-text h1 {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.header-text span {
+    color: lightgreen;
+}
+
+.picture {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+}
+
+#about, #imagesof, #about2 {
+    padding: 40px 0;
+}
+
+#about {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.passage {
+    text-align: center;
+}
+
+.passage h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.passage p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+#imagesof {
+    background-color: green;
+    color: #343a40;
+}
+
+.sub-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.images-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.images-list div {
+    flex-basis: 30%;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.images-list img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.images-list h3,
+.images-list h4,
+.images-list h5 {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#about2 {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1, .about-col-2 {
+    flex-basis: 48%;
+}
+
+.about-col-1 img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.text-about2 {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #a6c9ec;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1rem;
+}
+
+.footer a {
+    color: blue;
+    text-decoration: underline;
+   
+}
